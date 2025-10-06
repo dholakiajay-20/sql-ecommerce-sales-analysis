@@ -79,25 +79,25 @@ docker compose exec -T db psql -U postgres -d ecom -c "SELECT * FROM core.v_dq_s
 > These PNGs live in `images/` and are created by `scripts/make_charts.py`.
 
 * **KPI Summary**
-  ![KPI Summary](images/kpi_dashboard.png)
+  ![KPI Summary](kpi_dashboard.png)
 
 * **Top Customers by LTV**
-  ![Top Customers by LTV](images/top_customers_ltv.png)
+  ![Top Customers by LTV](top_customers_ltv.png)
 
 * **Revenue by Region**
-  ![Revenue by Region](images/sales_by_region.png)
+  ![Revenue by Region](sales_by_region.png)
 
 * **Revenue by Product Category**
-  ![Revenue by Category](images/sales_by_category.png)
+  ![Revenue by Category](sales_by_category.png)
 
 * **Monthly Revenue Trend**
-  ![Monthly Trend](images/seasonality_monthly.png)
+  ![Monthly Trend](seasonality_monthly.png)
 
 * **Payment Mix (Revenue & AOV)**
-  ![Payment Mix](images/payment_mix.png)
+  ![Payment Mix](payment_mix.png)
 
 * **New vs Repeat — Orders & Revenue Share**
-  ![New vs Repeat](images/new_vs_repeat.png)
+  ![New vs Repeat](new_vs_repeat.png)
 
 ---
 
@@ -181,4 +181,5 @@ sql-ecommerce-analytics/
 * **DB reset (compose `down -v`):** re-run `00_run_all.psql` before exporting/plotting.
 
 ---
+
 
