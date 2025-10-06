@@ -1,0 +1,12 @@
+-- ./sql/00_run_all.psql
+-- WHY: Single entrypoint so you don't have to run each file manually.
+\set ON_ERROR_STOP on
+\set data_dir '/data'  -- container path where CSVs are mounted
+
+\i /sql/01_schema_and_load.sql
+\i /sql/02_cleaning_rules.sql
+\i /sql/03_dimensions.sql
+\i /sql/04_fact_sales.sql
+\i /sql/05_kpi_views.sql
+\i /sql/06_analysis_queries.sql
+\i /sql/07_data_quality_checks.sql

@@ -1,0 +1,7 @@
+payment_method,orders,revenue,aov,revenue_share_pct
+debit_card,153,5061.08,33.08,19.38
+credit_card,147,5026.89,34.20,19.25
+paypal,146,4324.35,29.62,16.56
+cash,152,4315.57,28.39,16.53
+bank_transfer,121,3869.81,31.98,14.82
+venmo,128,3517.69,27.48,13.47

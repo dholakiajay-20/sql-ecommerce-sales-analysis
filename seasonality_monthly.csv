@@ -1,0 +1,14 @@
+year,month,month_name,quarter,season_uk,orders,revenue,avg_order_value
+2022,12,Dec,4,Winter,25,700.37,28.01
+2023,1,Jan,1,Winter,122,3479.34,28.52
+2023,2,Feb,1,Winter,37,1264.57,34.18
+2023,3,Mar,1,Spring,34,1101.86,32.41
+2023,4,Apr,2,Spring,35,2221.68,63.48
+2023,5,May,2,Spring,36,982.01,27.28
+2023,6,Jun,2,Summer,37,801.35,21.66
+2023,7,Jul,3,Summer,28,627.11,22.40
+2023,8,Aug,3,Summer,26,775.56,29.83
+2023,9,Sep,3,Autumn,31,1211.44,39.08
+2023,10,Oct,4,Autumn,119,3140.90,26.39
+2023,11,Nov,4,Autumn,167,5273.60,31.58
+2023,12,Dec,4,Winter,150,4535.60,30.24
