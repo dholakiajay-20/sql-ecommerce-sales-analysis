@@ -1,14 +1,12 @@
-````markdown
 # SQL E-commerce Analytics — Data Cleaning & Business Insights
 
-**Business goal:** Turn messy e-commerce CSVs into a clean analytics model and produce **recruiter-ready insights**: top customers (LTV), revenue by category/region/season, payment mix, and new vs repeat.
+**Business goal:** Turn messy e-commerce CSVs into a clean analytics model and produce business-ready insights — top customers (LTV), revenue by category, region, and season, payment mix, and new vs repeat orders.
 
 ---
 
 ## Overview
-This repo shows the full analyst workflow:
-**ingest → clean → model → measure (KPIs) → export → visualize → explain**.  
-Everything runs locally via **Dockerized PostgreSQL** and plain SQL. Charts are generated with a tiny Python script; PNGs are embedded so a recruiter can skim the value without running code.
+This project demonstrates the end-to-end analytics workflow — from raw data ingestion and cleaning to modeling key metrics (KPIs), visualizing trends, and explaining business outcomes.  
+All analysis was performed using **SQL (PostgreSQL)** and **Python** for charting, with insights fully documented below for easy review.
 
 ---
 
@@ -181,6 +179,7 @@ sql-ecommerce-analytics/
 * **DB reset (compose `down -v`):** re-run `00_run_all.psql` before exporting/plotting.
 
 ---
+
 
 
 
